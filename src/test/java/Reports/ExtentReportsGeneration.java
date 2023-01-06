@@ -7,6 +7,8 @@ import java.io.IOException;
 import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,6 +20,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -31,21 +34,23 @@ public class ExtentReportsGeneration {
 	WebDriver driver;
 	ExtentReports extent;
 	ExtentTest eTest;
-
+	public static Logger logger;
 	@BeforeTest
 	public void init() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
+		logger=LogManager.getLogger("ExtentReportDemo");
 		driver.get("http://omayo.blogspot.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
+		logger.info("Web page open successfuly");
 		String path = System.getProperty("user.dir") + "\\report\\index.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setDocumentTitle("ExtentReport");
 		reporter.config().setReportName("Demo Document");
 		extent = new ExtentReports();
 		extent.attachReporter(reporter);
+		
 	}
 
 	@Test
@@ -81,7 +86,7 @@ public class ExtentReportsGeneration {
 		}
 		driver.findElement(By.linkText("Hom")).click();
 		
-		// Reports
+		logger.info("Failuer report generated successfuly");
 
 	}
 

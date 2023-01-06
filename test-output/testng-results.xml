@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-06T16:36:32 IST" name="Suite" finished-at="2023-01-06T16:37:04 IST" duration-ms="31146">
+  <suite started-at="2023-01-06T19:19:28 IST" name="Default suite" finished-at="2023-01-06T19:19:51 IST" duration-ms="22353">
     <groups>
     </groups>
-    <test started-at="2023-01-06T16:36:32 IST" name="Test" finished-at="2023-01-06T16:37:04 IST" duration-ms="31146">
+    <test started-at="2023-01-06T19:19:28 IST" name="Default test" finished-at="2023-01-06T19:19:51 IST" duration-ms="22353">
       <class name="Reports.ExtentReportsGeneration">
-        <test-method is-config="true" signature="init()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T16:36:32 IST" name="init" finished-at="2023-01-06T16:36:50 IST" duration-ms="17335" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T19:19:28 IST" name="init" finished-at="2023-01-06T19:19:39 IST" duration-ms="10641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="failTest()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T16:36:50 IST" name="failTest" finished-at="2023-01-06T16:37:00 IST" duration-ms="10516" status="FAIL">
+        <test-method signature="failTest()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T19:19:39 IST" name="failTest" finished-at="2023-01-06T19:19:49 IST" duration-ms="10425" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Hom"}
@@ -20,9 +20,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35225349b78f5c42a4358f3264954a17, findElement {using=link text, value=Hom}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57180/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 35225349b78f5c42a4358f3264954a17]]>
+Command: [65acac06b539f72152254c906277645a, findElement {using=link text, value=Hom}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56451/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 65acac06b539f72152254c906277645a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Hom"}
@@ -31,9 +31,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [35225349b78f5c42a4358f3264954a17, findElement {using=link text, value=Hom}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:57180}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57180/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 35225349b78f5c42a4358f3264954a17
+Command: [65acac06b539f72152254c906277645a, findElement {using=link text, value=Hom}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56451/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 65acac06b539f72152254c906277645a
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -48,7 +48,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-at Reports.ExtentReportsGeneration.failTest(ExtentReportsGeneration.java:82)
+at Reports.ExtentReportsGeneration.failTest(ExtentReportsGeneration.java:87)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -81,19 +81,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failTest -->
-        <test-method signature="getText()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T16:37:00 IST" name="getText" finished-at="2023-01-06T16:37:00 IST" duration-ms="125" status="PASS">
+        <test-method signature="getText()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T19:19:49 IST" name="getText" finished-at="2023-01-06T19:19:49 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getText -->
-        <test-method signature="getURL()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T16:37:00 IST" name="getURL" finished-at="2023-01-06T16:37:01 IST" duration-ms="70" status="PASS">
+        <test-method signature="getURL()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T19:19:49 IST" name="getURL" finished-at="2023-01-06T19:19:49 IST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getURL -->
-        <test-method is-config="true" signature="tearOf()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T16:37:01 IST" name="tearOf" finished-at="2023-01-06T16:37:04 IST" duration-ms="2963" status="PASS">
+        <test-method is-config="true" signature="tearOf()[pri:0, instance:Reports.ExtentReportsGeneration@5656be13]" started-at="2023-01-06T19:19:49 IST" name="tearOf" finished-at="2023-01-06T19:19:51 IST" duration-ms="1145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearOf -->
       </class> <!-- Reports.ExtentReportsGeneration -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
